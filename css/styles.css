@@ -208,5 +208,198 @@ section .nosotros  {
     border-radius: 50%;
   }
  
+
+  /* Section Pelea */
+.pelea  {
+	background: #fff;
+	width: 100%;
+}
+
+
+.pelea .contenedorpelea {
+	display: block;
+	width: 100%;
+	padding: 20px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.pelea .contenedorpelea .pelea1{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.pelea .contenedorpelea .pelea1 .contImg{
+	width: 80%;
+	display: inline-block;
+	text-align:center;
+    margin: 8px;
+}
+
+.pelea .contenedorpelea .pelea1 .contImg img{
+	width: 60vw;
+
+}
+
+.pelea .contenedorpelea .pelea1 .contParr{
+	width: 80%;
+	display: inline-block;
+	text-align: center;
+}
+
+.pelea .contenedorpelea .pelea1 .contParr .texto{
+	font-size: 14px;
+	width: 100%;
+	font-family: 'Varela Round', sans-serif;
+	color: #000000;
+	font-weight:400;
+	 font-style:italic;  
+     padding-bottom: 5px;
+
+}
+
+
+.pelea .contenedorpelea .parrafo  {
+   margin: 20px;
+    height: 100%;
+
+}
   
+.pelea .contenedorpelea .parrafo h2 {
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.pelea .contenedorpelea .texto-parrafo  {
+  margin-bottom: 30px;
+  font-size: 1.2em;
+}
+
+
+/*  Carrousel */
   
+.slider{
+  /* background: rgb(7, 7, 7); */
+	width: 100%;
+}
+.mySlides {display: none}
+
+.foto img{
+      vertical-align: middle;
+      height: 100vh;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+/* .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  /* margin: 0px 2px;
+  margin-bottom: 5px; 
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: absolute;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+} */
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {font-size: 11px}
+}
+
+  /* atencion */
+  .atencion{
+    width: 100%;
+    /* margin: 10px; */
+    padding: 10px;
+   
+  }
+
+  .atencion .atencion-titulo{
+    color: rgb(0, 0, 0);
+    font-weight:1.5em;
+    font-size: 1.5em;
+    /* margin-top: 100px; */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  
+  .atencion .contenedor p{
+    color: rgb(0, 0, 0);
+    font-weight:1.5em;
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
