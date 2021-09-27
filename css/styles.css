@@ -39,6 +39,7 @@ header .cuadro-menu {
 	width: 100%;
 	position: fixed;
 	z-index: 100;
+ 
 }
 
 
@@ -53,7 +54,8 @@ header .cuadro-menu .icono-menu  {
 
 header .cuadro-menu .menu {
     padding: 25px 50px;
-	text-align: right;
+	text-align: left;
+  width: 60%;
 }
 
 header .cuadro-menu .menu a {
@@ -63,7 +65,6 @@ header .cuadro-menu .menu a {
 	color: white;
   display: inline-block; 
 	font-size: 0.8em;
-	/* position: relative; */
 	top: 0px;
 text-transform: uppercase;
 
@@ -667,6 +668,7 @@ p{
   footer .pie-pagina .explicacion{
     text-align: center;
     margin:10px 12px;
+    align-self: center;
     
   }
   footer .pie-pagina  .explicacion p {
@@ -680,19 +682,20 @@ p{
   footer .pie-pagina .datos {
     color: white;
     margin:20px 20px;
+    
   }
 
   footer .pie-pagina .datos h3 {
     font-size: 1em;
-    /* font-weight: 300; */
     padding-bottom: 5px;
+    line-height: 1.5em;
   }
   
   
 
   
   footer .pie-pagina .pie-pagina-logo {
-    margin:5px 25px;
+    text-align: center;
   }
   
   /* /Footer */
@@ -793,7 +796,6 @@ p{
     margin-bottom: 20px;
   }
   .marcas .product picture img{
-  
     width: 100%;
   }
   
@@ -802,44 +804,3 @@ p{
 
 
   
-  /* de 820px en adelante*/
-  @media (min-width: 820px) {
-
-.wrapper{
-  width: 100%;
-}
-
-.wrapper .img-area {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction:row;
-  align-items: center;
-  justify-content: space-evenly;
-  max-width: 1024px;
-  padding: 20px;
-  margin: auto;
-}
- .wrapper .img-area .single-img{  
-  width: 32.3%;  
-}
-.wrapper .img-area .single-img img {
-  width: 200px; 
-  padding-top:15px;
-}
-
-/* Footer */
-
-/* footer .pie-pagina {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-} */
-
-footer .pie-pagina .explicacion{
-  text-align: center;
-  align-self: center;
-}
-
-
-  }
