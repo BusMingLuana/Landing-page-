@@ -501,12 +501,11 @@ section .nosotros  {
     font-weight:1.5em;
     font-size: 1.5em;
     padding-bottom: 20px;
+    margin-top: 20px;
     text-align: center;
   }
   .contenedor-marcas{
-
     height: 100%;
-    /*background: red;*/
     margin: auto;
     display: flex;
     align-items: center;
@@ -514,16 +513,18 @@ section .nosotros  {
   }
 
   .marcas .product{
-    min-width: 35vw;
+    min-width:35vw;
     height: 100%;
     background: whitesmoke;
-    margin:  0 20px  0 0;
+    margin: 0 20px  0 0;
     border-radius: 20px;
     position: relative;
     left: 0;
     transition: 0.5s;
-
   }
+
+
+
   .marcas .product picture{
     width: 100%;
     height: 100%;
@@ -531,6 +532,7 @@ section .nosotros  {
     display: flex;
     overflow: hidden;
     margin-bottom: 20px;
+    margin: auto;
   }
   .marcas .product picture img{
     width: 100%;
@@ -751,55 +753,10 @@ p{
 
 
   /* de 900px en adelante*/
-  @media (min-width: 900px) {
-
-
-  /* Marcas */
-  .marcas{
-    height: 100%;
-    padding: 10px;
-  }
-
-
-  .marcas h2{
-    color: rgb(36, 36, 36);
-    font-weight:1.5em;
-    font-size: 1.5em;
-    padding-bottom: 20px;
-    text-align: center;
-  }
-  .contenedor-marcas{
-    height: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    overflow-x: auto;
-  }
-
-  .marcas .product{
-    min-width: 25vw;
-    height: 100%;
-    background: whitesmoke;
-    margin:  0 20px  0 0;
-    border-radius: 20px;
-    position: relative;
-    left: 0;
-    transition: 0.5s;
-
-  }
-  .marcas .product picture{
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    display: flex;
-    overflow: hidden;
-    margin-bottom: 20px;
-  }
-  .marcas .product picture img{
-    width: 100%;
-  }
-  
-  /* /Marcas */
+  @media (min-width: 800px) {
+    .marcas .product{
+      min-width:20vw;
+    }
   }
 
 
