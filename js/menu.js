@@ -11,7 +11,7 @@
 		if (window.pageYOffset > 100) {
 			cuadroMenu.style.background = "#000";
 		   } else {
-			cuadroMenu.style.background = "transparent0";
+			cuadroMenu.style.background = "#000";
 		   }
 		}
 	  } else {
