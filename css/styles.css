@@ -64,7 +64,7 @@ header .cuadro-menu .menu a {
 	color: white;
   display: inline-block; 
 	font-size: 0.8em;
-	position: relative;
+	/* position: relative; */
 	top: 0px;
 text-transform: uppercase;
 
@@ -104,17 +104,25 @@ header .contenedor-texto-portada .texto .nombre {
 	font-size: 2em;
 	text-shadow: 5px 5px 5px black;
 	text-align: center;
-    padding: 5px;
+  padding: 5px;
+  max-width: 450px;
 }
 
 
 
  .boton{
-    overflow: hidden; 
+    /* overflow: hidden;  */
     width: 90%;
     margin: auto;
     /* padding-top: 15%;  */
     text-align: center;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 450px;
+    
    
 }
 
@@ -122,17 +130,19 @@ header .contenedor-texto-portada .texto .nombre {
     height: 40px; 
     text-align: center;
     text-transform: uppercase;
-    background-color:rgba(21, 116, 21, 0.9);
-    border-color:rgba(21, 116, 21, 0.8);
+    background-color:rgb(74, 201, 89);
+    border-color:rgb(74, 201, 82);
     border-style: solid; 
     border-radius: 20px;  
     width: 80%;   
     cursor: pointer;
-    color: rgb(8, 8, 8);
+    color: rgb(255, 248, 248);
     font-weight: bold;
     font-size: 0.7rem;
     margin: auto;
     /* padding-left: 50px; */
+    box-shadow: 2px -1px 28px -1px rgba(0,0,0,0.63);
+    
   } 
 /*SECCION*/
 
@@ -140,6 +150,8 @@ header .contenedor-texto-portada .texto .nombre {
 /*NOSOTROS*/
 section .nosotros  {
     height: 100%; 
+    margin: 20px;
+    margin-top: 30px;
 }
 /*Quienes somos*/
 .contenedor-nosotros .quienes-somos {
@@ -149,6 +161,8 @@ section .nosotros  {
 	margin-top: 30px;
 	padding: 20px;
     /* line-height: 16px; */
+    max-width: 600px;
+    margin: auto;
 
 }
 
@@ -160,6 +174,7 @@ section .nosotros  {
 	font-weight: bolder;
 	line-height: 35px;
 	font-size: 1.3em;
+
 }
 
 
@@ -192,6 +207,8 @@ section .nosotros  {
     font-weight: 600;
     font-size: 1.5em;
     margin-bottom: 50px;
+    max-width: 650px;
+    margin: auto;
     /* text-align: center; */
   }
   
@@ -207,6 +224,7 @@ section .nosotros  {
     max-width: 70%;
     box-sizing: border-box;
     padding: 15px;
+    max-width: 450px;
   }
   .testimonial{
     background: #fff;
