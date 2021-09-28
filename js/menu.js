@@ -15,8 +15,7 @@
 		   }
 		}
 	  } else {
-	  		cuadroMenu.style.background = "#000";
-	  }
+	  		cuadroMenu.style.background = "#000"; }
 	//}
 
 
