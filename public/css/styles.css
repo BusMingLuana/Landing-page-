@@ -218,6 +218,7 @@ section .nosotros  {
     border-radius: 50%;
   }
  
+/* /Testimonios */
 
   /* Section Proovedores */
 .proovedores  {
@@ -292,9 +293,10 @@ section .nosotros  {
   font-weight: 400;
   font-size: 20px;
 	color: #505050;
-
 }
 
+
+/* /Proovedores */
 
 /* Baner intermedio */
    .banner-intermedio img{
@@ -320,7 +322,7 @@ section .nosotros  {
     padding: 10px;
     max-width: 450px;
     position: absolute;
-    top: -180px;
+    top: -220px;
     left: 0;
     right: 0;
     margin: auto;
@@ -416,7 +418,8 @@ section .nosotros  {
    margin: 10px;
     max-width: 300px;
     background-color: #ffffff;
-    border-radius: 20%;
+    border-radius: 15%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
   }
 
   .repuestos .contenedor-repuestos .article p{
@@ -428,8 +431,7 @@ section .nosotros  {
   }
   
   .repuestos .contenedor-repuestos article img {
-    border-radius: 20%;
-
+    border-radius: 15%;
   }
   /* /Pdfs */
 
@@ -490,13 +492,14 @@ section .nosotros  {
 
   .newsletter{  
     width: 100%; 
-   background: #fd4646;
+   background: #FF6666;
    padding-top: 20px;
     }
   .titulo-news {
-    /* margin: 8px; */
-    font-size: 1.5em;
+    color: #212121;
+    font-size: 28px;
     text-align: center;
+    font-weight: bold;
   }
 
 
@@ -507,7 +510,7 @@ section .nosotros  {
   border-radius: 10px;  
   padding-top: 30px;
   padding-bottom: 20px;  
-  background-color: #fd4646;
+  background-color: #FF6666;
   /* padding-left: 30px;  */
 }
 
@@ -533,7 +536,7 @@ textarea{
   border-radius: 5px;  
   border-style: solid; 
   border-width: 1px; 
-  border-color: #000000; 
+  border-color: #505050; 
   margin-top: 10px;  
   padding-left: 10px;
   margin-bottom: 20px; 
@@ -544,6 +547,10 @@ textarea{
 label{
   display: block; 
   float: center;  
+  color: #212121;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
 }
 
 
@@ -554,17 +561,18 @@ label{
   margin-bottom: 20px; 
   margin-top: 10px;   
   text-transform: uppercase;
-  background-color: #000000; 
-  border-color: #000000; 
+  background-color: #212121; 
+  border-color: #212121; 
   border-style: solid; 
-  border-radius: 10px;  
-  width: 300px;   
-  cursor: pointer;
+  border-radius: 10px;   
+  width: 200px;   
+   cursor: pointer;
 }
 
 
 button p{
   color: #fff; 
+  font-weight: bold;
 }
 
 
@@ -705,6 +713,72 @@ p{
     }
   }
 
+  @media (min-width:1200px) {
+    /* Testimonios */
+
+.col{
+  flex: 30%;
+}
+
+
+ /* Section Proovedores */
+ /* .proovedores  {
+	background: #fff;
+	width: 100%;
+  
+} */
+
+
+/* .proovedores .contenedorProvedores{
+	display: block;
+	width: 100%;
+	padding: 20px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+} */
+
+.proovedores .contenedorProvedores .proovedor1{
+	justify-content: space-between;
+}
+
+.proovedores .contenedorProvedores .proovedor1 .contImg{
+	width: 30%;
+
+
+}
+
+
+
+.proovedores .contenedorProvedores .proovedor1 .contParr{
+	width: 35%;
+
+}
+
+.proovedores .contenedorProvedores .proovedor1 .contParr .texto{
+	font-size: 30px;
+	width: 100%;
+	color: #505050;
+	font-weight:400;
+  padding-bottom: 5px;
+
+}
+
+
+  
+.proovedores .contenedorProvedores  .parrafo h2 {
+    margin-top: 40px;
+
+}
+
+.proovedores .contenedorProvedores .texto-parrafo  {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 20px;
+	color: #505050;
+
+} 
+
+  }
   
   
   
