@@ -263,6 +263,11 @@ section .nosotros  {
 	text-align: center;
 }
 
+
+.proovedores .contenedorProvedores .proovedor1 .contParr .parrafo{
+   margin-top: 15px;
+}
+
 .proovedores .contenedorProvedores .proovedor1 .contParr .texto{
 	font-size: 20px;
 	width: 100%;
