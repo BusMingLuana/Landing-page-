@@ -24,8 +24,8 @@
 
 
    <!-- HEADER !-->
-   <header>
-    <div class="contenedor"> 
+   <header>  
+   
     <div class="cuadro-menu" id="cuadro-menu">
         <!-- Logo del menù !-->
           <div class="logo-menu">
@@ -41,31 +41,40 @@
           <a class='btn-texto' href="#" id="btn_beneficios">Beneficios y caracteristicas</a>
           <a class='btn-texto' href="#" id="btn_marcas">Nuestros productos</a>
           <a class='btn-texto' href="#" id="btn_contacto">Preguntas frecuentes</a>
-  
+    
         </nav>        
       </div>
+    </header>
+
+     
+     
+  
+
    
+   <section class="main" id="main">
 
-        <div class="contenedor-texto-portada" id="textoPortada">
 
-          <div class="texto">
-            <h1 class="nombre" id="letrasPortada">Encontrá tus repuestos de tren delantero</h1>
-          </div>
+    <section class="portada">
 
-            <div class="boton">
-              <button class="encargar">Quiero encargar repuestos</button>
-            </div>
-          
-         
+      <picture>
+        <source media="(min-width:1000px)" srcset="/banner-01desktop.jpg">
+        <source media="(min-width:780px)" srcset="/portada2.jpg">
+        <img src="/portada.jpg" alt="">
+      </picture>
+
+      
+      <div class="contenedor-texto-portada" id="textoPortada">
+
+        <div class="texto">
+          <h1 class="nombre" id="letrasPortada">Encontrá tus repuestos de tren delantero</h1>
         </div>
 
-     </div> 
-   </header>
-
-
-
-   <!-- SECCIÓN !-->
-   <section class="main" id="main">
+          <div class="boton">
+            <button class="encargar">Quiero encargar repuestos</button>
+          </div>
+       
+      </div>
+    </section>
 
 
      <!-- Nosotros !-->
@@ -85,7 +94,7 @@
 <section class="caract">
       <div class="testimonials">
         <div class="inner">
-         <h1>Si sos dueño de un taller o de una tienda de autopartes, seguramente buscas una distribuidora que tenga: </h1>
+         <h2>Si sos dueño de un taller o de una tienda de autopartes, seguramente buscas una distribuidora que tenga: </h2>
       
 
       <div class="row">
@@ -93,21 +102,21 @@
             <div class="testimonial">
                <img src="IMGS PARA LA LANDING PAGE/ICONO/Sin Fondo/precios_bajos.png" alt="">
     
-          <h2>Precios Bajos</h2>
+          <h3>Precios Bajos</h2>
         </div>
       </div>
 
       <div class="col">
         <div class="testimonial">
           <img src="IMGS PARA LA LANDING PAGE/ICONO/Sin Fondo/productos_calidad.png" alt="">    
-            <h2>Productos de buena calidad</h2>
+            <h3>Productos de buena calidad</h2>
         </div>
       </div>
 
       <div class="col">
         <div class="testimonial">
           <img src="IMGS PARA LA LANDING PAGE/ICONO/Sin Fondo/Flexibilidad_pagos.png" alt="">
-            <h2>Flexibilidad en los pagos</h2>
+            <h3>Flexibilidad en los pagos</h2>
           </div>
         </div>
       </div>
@@ -117,16 +126,12 @@
 <!-- /Testimonios -->
 
     <!-- seccion info !-->
-    <section class="pelea"  id="description">
+    <section class="proovedores"  id="description">
      
-           
-		   
-  
-			
 			<!--Contenedor del los divs -->
-    	<div class="contenedorpelea">
+    	<div class="contenedorProvedores">
 
-		    	<div class="pelea1">
+		    	<div class="proovedor1">
 		    	       <!--Imagen 1 y texto 1-->
 			    	 
 			    	   <div class="contParr"> <p class="texto"> ¿Tus proovedores te aumentaron los precios?</p>
@@ -141,7 +146,7 @@
        
           </div>
 
-          <div class="pelea1">
+          <div class="proovedor1">
             <!--Imagen 2 y texto 2-->
      
             <div class="contImg">
@@ -162,31 +167,26 @@
 
     
     <!-- carrousel !-->
-    <section class="slider">
-      <div class="slideshow-container">
 
-      <div class="mySlides fade">
+    <section class="banner-intermedio">
 
-        <img class="foto" src="/IMGS PARA LA LANDING PAGE/portada4.jpg" style="width:100%" alt="foto">
-        <div class="text">En Front Train tenemos una amplia variedad de repuestos para tren delantero...</div>
+      <picture>
+        <source media="(min-width:1000px)" srcset="/banner-01desktop.jpg">
+        <source media="(min-width:780px)" srcset="/banner-01tablet.jpg">
+        <img src="/banner-01.jpg" alt="">
+      </picture>
+
+      
+      <div class="contenedor-texto-banner" id="textoBanner">
+
+        <div class="texto-banner">
+          <h1 class="nombre-banner" id="letrasBanner">En FrontTrain tenemos una amplia variedad de repuestos para tren delantero...</h1>
+        </div>
+
+ 
       </div>
-      
-      <div class="mySlides fade">
-  
-        <img class="foto" src="/IMGS PARA LA LANDING PAGE/portada3.jpg" style="width:100%" alt="foto">
-        <div class="text">Junto con un servicio que se encarga de satisfacer tus necesidades.</div>
-        
-      </div>
-      
-      
-      
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      
-      </div>
-  
     </section>
-
+  
 
       <!-- ¿Por qué encargarnos de tu stock? !-->
         <section class="atencion" id="atencion">
@@ -243,7 +243,7 @@
     </section>
 
 
-      </section>
+      
 <!-- Marcas -->
       <section class="marcas">
         <h2>Nuestras marcas</h2>
@@ -401,7 +401,7 @@
            </form>
        </div>
      </section>
-
+    </section>
    </section>
        <!-- Footer !-->
        <footer>
@@ -434,7 +434,7 @@
 
    <!-- </Footer -->
    <script src="/js/jquery-3.4.1.min.js"></script>
-<script src="/js/slider.js"></script>
+<!-- <script src="/js/slider.js"></script> -->
 <script src="/js/menu.js"></script>
 
 </body>

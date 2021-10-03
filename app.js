@@ -2,6 +2,7 @@ const express = require('express');
 const path = require ('path')
 const app = express();
 
+//accedo a la  absoluta con resolve
 const publicFolderPath = path.resolve('public');
 
 app.use(express.static(publicFolderPath));
